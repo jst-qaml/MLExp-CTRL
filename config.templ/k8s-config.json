@@ -1,0 +1,5 @@
+{
+    "KUBECONFIG_PATH": "config/kubeconfig.yaml",
+    "ALLOWED_NAMESPACES": ["ml-exp"],
+    "PROHIBITED_NAMESPACES": ["default", "kube-system", "kube-public", "harbor", "gpu-operator", "longhorn-system"]
+}

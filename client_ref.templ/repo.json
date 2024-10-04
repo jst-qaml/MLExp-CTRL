@@ -1,0 +1,29 @@
+{
+  "dvc_repo": {
+    "name": "<repo-name e.g.exp-repo>",
+    "url": "<git-repo-url>",
+    "username": "<git-username>",
+    "passkey": "<git-accesskey>",
+    "bucket-name": "<bucket-name>"
+  },
+  "bucket": {
+    "name": "<bucket-name e.g.data-bucket>",
+    "url": "<bucket-url e.g. s3://>",
+    "endpointurl": "<S3-api-url e.g. http://>",
+    "access_key_id": "<bucket-access-key>",
+    "secret_access_key": "<bucket-secret-key>"
+  },
+  "git_repo": {
+    "name": "<repo-name e.g.ml-workload-repo>",
+    "url": "<git-repo-url>",
+    "username": "<git-username>",
+    "passkey": "<git-accesskey>"
+  },
+  "ct_registry": {
+    "name": "<registry-name e.g.ml-env-repo>",
+    "server": "<registry-url>",
+    "username": "<registry-username>",
+    "password": "<registry-secret-key>",
+    "email": "<optional>"
+  }
+}

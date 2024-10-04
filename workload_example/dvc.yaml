@@ -1,0 +1,8 @@
+stages:
+  data-gen:
+    cmd: python ../data-gen.py ./inputs/hyperparams.yaml ./outputs/output.yaml
+    deps:
+      - ../data-gen.py
+      - ./inputs/hyperparams.yaml
+    outs:
+      - ./outputs/output.yaml
